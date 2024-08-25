@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="sign-up">
+            <form>
+                <h1>Crie sua conta</h1>
+                <div class="icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <span>ou use email para se registrar</span>
+                <input type="text" placeholder="Nome">
+                <input type="text" placeholder="Email">
+                <input type="password" placeholder="Senha">
+                <button>Criar conta</button>
+            </form>
+        </div>
+        
+        <div class="sign-in">
+            <form>
+                <h1>Faça Login</h1>
+                <div class="icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <span>ou use email e senha</span>
+                <input type="text" placeholder="Nome">
+                <input type="password" placeholder="Senha">
+                <a href="#">Esqueceu sua senha?</a>
+                <button>Entrar</button>
+            </form>
+        </div>
+
+        <div class="toogle-container">
+            <div class="toogle">
+                <div class="toogle-panel toogle-left">
+                    <h1>Bem vindo!</h1>
+                    <p>Já possui conta?</p>
+                    <button class="hidden" id="login">Entrar</button>
+                </div>
+
+                <div class="toogle-panel toogle-right">
+                    <h1>Bem vindo!</h1>
+                    <p>Não possui conta?</p>
+                    <button class="hidden" id="register">Crie sua conta</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
